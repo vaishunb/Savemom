@@ -1,0 +1,49 @@
+<ion-side-menus>
+  <ion-pane ion-side-menu-content>
+    <ion-nav-bar class="bar-assertive">
+    <ion-nav-back-button class="no-text">
+            </ion-nav-back-button>
+            <ion-nav-buttons side="left">
+                <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+                </button>
+            </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent" animation="slide-left-right"></ion-nav-view>
+  </ion-pane>
+   <button id="fab" class="button button-balanced button-fab button-fab-bottom-right">
+            <i class="icon ion-ios-telephone"></i>
+        </button>
+  <ion-side-menu side="left">
+    <ion-header-bar class="expanded">
+            <img src="img/1.png" class="avatar motion spin fade">
+            <div class="menu-bottom">
+                Save Mom
+            </div>
+        </ion-header-bar>
+    <ion-content class="stable-bg has-expanded-header">
+      <ion-list>
+        <ion-item nav-clear menu-close ui-sref="app.checkup">
+          Checkup Detail
+        </ion-item>
+        <ion-item nav-clear menu-close ui-sref="app.profile">
+           Profile
+        </ion-item>
+        <ion-item nav-clear menu-close ui-sref="app.health">
+         Health Tips
+        </ion-item>
+        <ion-item nav-clear menu-close ui-sref="app.food">
+          Food
+        </ion-item>
+        <ion-item nav-clear menu-close ui-sref="app.scheme">
+          Scheme
+        </ion-item>
+        <ion-item nav-clear menu-close ui-sref="change-password">
+          Change Password
+        </ion-item>
+        <ion-item nav-clear menu-close ng-click="logout()">
+          Logout
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
