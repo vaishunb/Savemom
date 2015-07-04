@@ -1,0 +1,37 @@
+<ion-view title="Checkup Detail" hide-back-button="true" >
+  
+  <ion-content class="has-header padding">
+           <div ng-controller="DashboardCtrl">
+      <div class="im-wrapper">
+            <!-- Ionic Components -->
+
+            <h4 class="border-top">
+                <i class="icon ion-clock"></i>
+               <font color="brown"><b> Next Checkup Detail</b></font> 
+            </h4>
+                   
+              <div class="list">
+                <a class="item item-avatar">
+                    <img src="img/cl.png">
+                    <h2><b>Date</b></h2>
+                    <p>7/8/2016</p>
+                </a>
+                <a class="item item-avatar">
+                    <img src="img/clk.png">
+                    <h2><b>Time</b></h2>
+                    <p>10.30 AM</p>
+                </a>
+                <a class="item item-avatar">
+                    <img src="img/hsp.png">
+                    <h2><b>Hospital</b></h2>
+                    <p>Government Hospital</p>
+                </a>
+              
+            </div><br>
+            <a button class="button  button-raised button-assertive ink-dark" ui-sref="app.previous">Previous Checkup</a><br><br>
+          <a button class="button button-raised button-assertive ink-dark" ui-sref="app.feedback">Doctor Feedback</a>
+            <br />
+            <br />     
+
+  </ion-content>
+</ion-view>
